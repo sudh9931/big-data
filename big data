@@ -1,1 +1,10 @@
 
+create table  emp_details1
+              > (
+              > emp_name int,
+              > unit string,
+              > exp int,
+              > location string
+              > )
+              > row format delimited
+              > fields terminated by ',';
